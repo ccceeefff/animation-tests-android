@@ -127,6 +127,7 @@ public class DetailActivity extends ActionBarActivity {
         mHeaderContainer.setTranslationY(-mHeaderContainer.getHeight());
         int revealTime = 300;
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
+            revealTime = 300;
             int cx = (mBackground.getLeft() + mBackground.getRight())/2;
             int cy = (mBackground.getTop() + mBackground.getBottom())/2;
 
@@ -137,7 +138,8 @@ public class DetailActivity extends ActionBarActivity {
         } else {
             mBackground.setScaleX(0);
             mBackground.setScaleY(0);
-            mBackground.animate().scaleX(1).scaleY(1).setDuration(revealTime).start();
+            mBackground.animate().scaleX(1).scaleY(1).setStartDelay(150).setDuration(revealTime).start();
+            revealTime = 450;
         }
         mHeaderContainer.animate().alpha(1).translationY(0).setStartDelay(revealTime).setDuration(300).start();
     }
