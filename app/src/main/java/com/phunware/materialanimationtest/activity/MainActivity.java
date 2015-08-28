@@ -92,7 +92,7 @@ public class MainActivity extends ActionBarActivity implements BasicItemListAdap
                 case 0: // default
                     break;
                 case 1: // slide in
-                    options = ActivityOptionsCompat.makeCustomAnimation(this, R.anim.slide_in_left, R.anim.slide_out_left);
+                    options = ActivityOptionsCompat.makeCustomAnimation(this, R.anim.slide_in_left, R.anim.zoom_exit);
                     break;
                 case 2: // zoom in
                     options = ActivityOptionsCompat.makeCustomAnimation(this, R.anim.zoom_enter, R.anim.zoom_exit);
