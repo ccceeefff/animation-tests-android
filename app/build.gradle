@@ -1,4 +1,18 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url 'https://raw.github.com/phunware/brandme-gradle-repo/master' }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.phunware.brandme.gradle:brandme-gradle-jenkins:0.0.+'
+    }
+}
+
+
 apply plugin: 'com.android.application'
+apply plugin: 'brandme'
 
 android {
     compileSdkVersion 23
