@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mario_primary_color">#fff40011</color>
+    <color name="mario_secondary_color">#ff0016f4</color>
+    <color name="mario_text_color">#ffff8600</color>
+
+    <color name="luigi_primary_color">#ff029c02</color>
+    <color name="luigi_secondary_color">#ff1a0e97</color>
+    <color name="luigi_text_color">#ff2111ff</color>
+
+    <color name="peach_primary_color">#ffff6083</color>
+    <color name="peach_secondary_color">#fffcff34</color>
+    <color name="peach_text_color">#ffffffff</color>
+
+    <color name="toad_primary_color">#ff3d41f4</color>
+    <color name="toad_secondary_color">#fff4a414</color>
+    <color name="toad_text_color">#ffffffff</color>
+
+    <color name="bowser_primary_color">#fff49103</color>
+    <color name="bowser_secondary_color">#ff01b522</color>
+    <color name="bowser_text_color">#ffdd1d18</color>
+
+</resources>

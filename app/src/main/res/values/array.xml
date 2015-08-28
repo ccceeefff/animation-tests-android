@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="transitions">
+        <item>Default</item>
+        <item>Slide In</item>
+        <item>Zoom In</item>
+        <item>Cross Fade</item>
+        <item>Scale Up</item>
+        <item>Shared Elements</item>
+        <item>Reveal</item>
+    </array>
+</resources>
