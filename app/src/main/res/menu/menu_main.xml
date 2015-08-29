@@ -7,8 +7,8 @@
         app:showAsAction="always"
         app:actionViewClass="android.widget.Spinner"/>
 
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
+    <item android:id="@+id/action_details"
+        android:title="Details"
         android:orderInCategory="100"
         app:showAsAction="never" />
 </menu>
